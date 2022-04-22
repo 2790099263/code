@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-#include <bits/stdc++.h>
-using namespace std;
-int main()
-{
-=======
-//A题ac代码
-//网络流最小割最大流问题
-//StoerWagner算法
 #include <bits/stdc++.h>
 using namespace std;
 const int MAXN=505;
@@ -63,6 +54,5 @@ int main()
     }
     int ans=run(n);
     cout<<ans<<endl;
->>>>>>> 484b5dacbfe077f2dfbbda1b361fe732f39b1be0
     return 0;
 }
